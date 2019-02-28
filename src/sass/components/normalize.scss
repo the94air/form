@@ -1,0 +1,21 @@
+body {
+    @apply leading-tight;
+    background-color: config('colors.white');
+    color: config('colors.black');
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+p {
+    @apply mb-2;
+}
+
+hr {
+    @apply h-px my-5;
+    background-color: config('colors.grey-light');
+}

@@ -1,0 +1,47 @@
+input[type=submit].form, input[type=button].form, button.form, a.form {
+    @apply inline-block text-center no-underline rounded-sm select-none align-middle whitespace-no-wrap px-4 py-2 mb-2 leading-tight cursor-pointer;
+    color: config('colors.white');
+    background-color: config('colors.blue');
+    transform: scale(1);
+    transition: all 200ms ease;
+    font-weight: 600;
+    &:hover, &:focus {
+        background-color: config('colors.blue-dark');
+    }
+    &:focus {
+        @apply outline-none shadow-outline;
+    }
+    &:disabled {
+        @apply pointer-events-none opacity-50;
+    }
+    &.success {
+        background-color: config('colors.green');
+        &:hover, &:focus {
+            background-color: config('colors.green-dark');
+        }
+    }
+    &.info {
+        background-color: config('colors.teal');
+        &:hover, &:focus {
+            background-color: config('colors.teal-dark');
+        }
+    }
+    &.warning {
+        background-color: config('colors.orange');
+        &:hover, &:focus {
+            background-color: config('colors.orange-dark');
+        }
+    }
+    &.danger {
+        background-color: config('colors.red');
+        &:hover, &:focus {
+            background-color: config('colors.red-dark');
+        }
+    }
+    &.full {
+        @apply w-full;
+    }
+    & + input[type=submit].form, & + input[type=button].form, & + button.form, & + a.form {
+        @apply ml-2;
+    }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form framework</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/example.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="w-full md:w-1/2 mx-auto my-32">
+			<form action="">
+				<div class="inputs">
+					<div>
+						<label class="form">Input text</label>
+						<input type="text" class="form">
+					</div>
+				</div>
+				<div class="textareas">
+					<div>
+						<label class="form">Input textarea</label>
+						<textarea class="form"></textarea>
+					</div>
+				</div>
+				<div class="selects">
+					<div>
+						<label class="form">Input select</label>
+						<select class="form">
+							<option>Select</option>
+							<option>First option</option>
+							<option>Second option</option>
+						</select>
+					</div>
+				</div>
+				<div class="files">
+					<div>
+						<label class="form">Input file</label>
+						<input type="file" class="form">
+					</div>
+				</div>
+				<div class="checkboxes">
+					<div>
+						<p style="font-weight: 600">Input checkboxes</p>
+					</div>
+					<div>
+						<input type="checkbox" class="form">
+						<label class="form">First checkbox</label>
+					</div>
+					<div>
+						<input type="checkbox" class="form" checked>
+						<label class="form">Second checkbox</label>
+					</div>
+				</div>
+				<div class="radios">
+					<div>
+						<p style="font-weight: 600">Input radios</p>
+					</div>
+					<div>
+						<input type="radio" name="radio1" class="form">
+						<label class="form">First radio</label>
+					</div>
+					<div>
+						<input type="radio" name="radio1" class="form" checked>
+						<label class="form">Second radio</label>
+					</div>
+				</div>
+				<div class="disabled-inputs-textareas">
+					<div>
+						<label class="form">Input text</label>
+						<input type="text" class="form" disabled>
+					</div>
+					<div>
+						<label class="form">Input textarea</label>
+						<textarea class="form" disabled></textarea>
+					</div>
+				</div>
+				<div class="disabled-selects">
+					<div>
+						<label class="form">Input select</label>
+						<select class="form" disabled>
+							<option>Disabled select</option>
+							<option>First option</option>
+							<option>Second option</option>
+						</select>
+					</div>
+				</div>
+				<div class="disabled-files">
+					<div>
+						<label class="form">Input file</label>
+						<input type="file" class="form" disabled>
+					</div>
+				</div>
+				<div class="disabled-radios">
+					<div>
+						<p style="font-weight: 600">Input radios</p>
+					</div>
+					<div>
+						<input type="radio" name="radio2" class="form" disabled>
+						<label class="form">Disabled radio</label>
+					</div>
+					<div>
+						<input type="radio" name="radio2" class="form" disabled checked>
+						<label class="form">Disabled & checked radio</label>
+					</div>
+				</div>
+				<div class="disabled-checkboxes">
+					<div>
+						<p style="font-weight: 600">Input checkboxes</p>
+					</div>
+					<div>
+						<input type="checkbox" class="form" disabled>
+						<label class="form">Disabled checkbox</label>
+					</div>
+					<div>
+						<input type="checkbox" class="form" disabled checked>
+						<label class="form">Disabled & checked checkbox</label>
+					</div>
+				</div>
+				<div class="links">
+					<div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae eligendi earum vero, libero tenetur. Minus optio qui porro illum <a href="#">libero tempora</a> sapiente! Nihil debitis adipisci totam doloribus beatae maxime!</p>
+					</div>
+				</div>
+				<div class="validation">
+					<div>
+						<label class="form">Input text</label>
+						<input type="text" class="form error">
+					</div>
+					<div>
+						<label class="form">Input textarea</label>
+						<textarea class="form error"></textarea>
+					</div>
+					<div>
+						<label class="form">Input select</label>
+						<select class="form error">
+							<option>Select</option>
+							<option>First option</option>
+							<option>Second option</option>
+						</select>
+					</div>
+				</div>
+				<div class="errors">
+					<div>
+						<label class="form">Label</label>
+						<input type="text" class="form error">
+						<span class="form">This field is required.</span>
+					</div>
+				</div>
+				<div class="buttons">
+					<a class="form" href="#">Link</a>
+					<button class="form" type="submit">Button</button>
+					<input class="form" type="button" value="Input button">
+					<input class="form" type="submit" value="Input submit">
+				</div>
+				<div class="buttons-styles">
+					<button type="button" class="form">Primary</button>
+					<button type="button" class="form success">Success</button>
+					<button type="button" class="form info">Info</button>
+					<button type="button" class="form warning">Warning</button>
+					<button type="button" class="form danger">Danger</button>
+				</div>
+				<div class="buttons-full-width">
+					<button type="button" class="form primary full">Button</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

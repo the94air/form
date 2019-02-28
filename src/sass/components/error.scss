@@ -1,0 +1,5 @@
+span.form {
+    @apply block mb-2;
+    font-size: 0.9rem;
+    color: config('colors.red-dark');
+}

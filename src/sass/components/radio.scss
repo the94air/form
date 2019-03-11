@@ -1,9 +1,0 @@
-input[type=radio].form {
-    @apply mr-1 leading-tight;
-    &:disabled {
-        @apply pointer-events-none opacity-50;
-    }
-    & + label.form {
-        font-weight: 400;
-    }
-}

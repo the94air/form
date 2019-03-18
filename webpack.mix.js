@@ -15,11 +15,11 @@ let tailwindcss = require('tailwindcss');
 if ( process.env.NODE_ENV == 'production' ) {
     mix.minify('dist/form.css');
 } else {
-    mix.setPublicPath('public')
+    mix.setPublicPath('test')
     .setResourceRoot('http://form.test/')
-    .sass('src/sass/app.scss', 'public/css')
-    .sass('src/sass/example.scss', 'public/css')
-    .copy('public/css/app.css', 'dist/form.css')
+    .sass('src/sass/app.scss', 'test/css')
+    .sass('src/sass/example.scss', 'test/css')
+    .copy('test/css/app.css', 'dist/form.css')
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.js') ],

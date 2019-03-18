@@ -1,6 +1,6 @@
 <p align="center"><img src="src/images/form.png" alt="Form Framework" width="150"></p>
 
-<p align="center">Form Framework</p>
+<p align="center"><strong>Form Framework</strong></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@codolog/form"><img src="https://img.shields.io/npm/v/@codolog/form.svg" alt="NPM"></a>

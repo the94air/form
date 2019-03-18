@@ -18,4 +18,4 @@ You can visit the [documentation](https://form.js.org) to see how you can use it
 
 ## License
 
-Laravel Mix is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Form is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

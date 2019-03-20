@@ -1,6 +1,6 @@
 <p align="center"><img src="src/images/form.png" alt="Form Framework" width="150"></p>
 
-<p align="center"><strong>Form Framework</strong></p>
+<h2 align="center">Form Framework</h2>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@codolog/form"><img src="https://img.shields.io/npm/v/@codolog/form.svg" alt="NPM"></a>
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-You have a form and you want to style it quickly, then, Form framework is for you. It is a single class form framework. You will only need to add the class `form` to any form element and you will get a modernly styled form input. It also contains normalize CSS and light CSS reset. The framework CSS file size is only 17.4 KiB and 10.3 KiB for the minified version.
+You have a form and you want to style it quickly, then, Form framework is for you. It is a single class form framework. Add the class `form` to any form element and you will get a modernly styled form input. It also packed with normalize CSS and light CSS reset. The framework CSS file size is only 17.4 KiB and 10.3 KiB for the minified version.
 
 ## Documentation
 

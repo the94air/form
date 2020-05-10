@@ -36,7 +36,7 @@ $ npm run dev
 ```
 
 ## Credits
-This project is highly inspired by shoelace, the CSS starter kit:
+This project is highly inspired by shoelace, the CSS starter kit:  
 https://github.com/claviska/shoelace-css
 
 ## License

@@ -19,6 +19,21 @@ Form is a framework for styling HTML forms. It has a simple class naming convent
 2. It also comes with form errors and disabled CSS styles.
 3. It has a small size. 10.5KB minified, 2.4KB Gzipped.
 
+## install
+Install Form from NPM  
+With NPM:
+```bash
+$ npm install @codolog/form
+```
+With Yarn:
+```bash
+$ yarn add @codolog/form
+```
+With Bower:
+```bash
+$ bower install @codolog/form
+```
+
 ## Documentation
 https://form.js.org
 
